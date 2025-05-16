@@ -1,0 +1,13 @@
+{
+    "name": "String",
+    "description": "String",
+    "type": "String: Kill / Collect",
+    "id": "String: Enemy / Item",
+    "count": "Int",
+    "reward": "Int",
+    "from": "String",
+    "requirements": {
+        "quest": "String: Previous Quest",
+        "level": "Int"
+    }
+}

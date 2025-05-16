@@ -1,0 +1,8 @@
+{
+    "name": "String",
+    "type": "String: Offense / Defense",
+    "element": "String: Earth / Fire / Water / Air / Lightning / Light / Dark",
+    "power": "Int",
+    "cost": "Float",
+    "scalesWith": "String: Stat"
+}
