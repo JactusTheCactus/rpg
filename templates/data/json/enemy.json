@@ -7,13 +7,21 @@
         "strength": "Int",
         "agility": "Int",
         "speed": "Int",
+        "health": "Int",
         "intelligence": "Int",
         "arcane": "Int"
     },
-    "loot": [
+    "inventory": [
         "String"
     ],
     "abilities": [
         "String"
-    ]
+    ],
+    "level": {
+        "num": "Int"
+    },
+    "equipped": {
+        "weapon": "String",
+        "armour": "String"
+    }
 }

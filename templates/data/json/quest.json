@@ -4,7 +4,10 @@
     "type": "String: Kill / Collect",
     "id": "String: Enemy / Item",
     "count": "Int",
-    "reward": "Int",
+    "reward": {
+        "amount":"Int",
+        "type":"String: xp / gold / item"
+    },
     "from": "String",
     "requirements": {
         "quest": "String: Previous Quest",
