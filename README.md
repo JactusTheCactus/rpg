@@ -1,1 +1,22 @@
-# rpg
+- Quests
+    - Collect {item}
+    - Kill {enemy}
+- Combat
+    - Stats
+    - Inventory
+        - Weapons
+        - Armour
+    - Spells
+        - Offense
+            - Fireball
+            - Thunderbolt
+        - Defense
+            - Heal
+            - Barrier
+    - Party
+- Market
+    - Buy / Sell Items
+- Character Customization
+    - Species (eg: Elf)
+        - Race (eg: Wood Elf)
+    - Class
