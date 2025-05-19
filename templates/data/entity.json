@@ -1,0 +1,30 @@
+{
+    "name": "String",
+    "nature": {
+        "species": "String",
+        "race": "String"
+    },
+    "class": "String",
+    "stats": {
+        "strength": "Int",
+        "agility": "Int",
+        "speed": "Int",
+        "health": "Int",
+        "intelligence": "Int",
+        "arcane": "Int"
+    },
+    "inventory": [
+        "String"
+    ],
+    "equipped": {
+        "weapon": "String",
+        "armour": "String"
+    },
+    "level": {
+        "num": "Int",
+        "progress": "Float"
+    },
+    "abilities": [
+        "String"
+    ]
+}
