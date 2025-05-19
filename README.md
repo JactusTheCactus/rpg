@@ -1,86 +1,116 @@
 - Quests
-    - Collect {item}
-    - Kill {enemy}
+	- Collect {item}
+	- Kill {enemy}
 - Combat
-    - Stats
-    - Inventory
-        - Weapons
-        - Armour
-    - Spells
-        - Offense
-            - Fireball
-            - Thunderbolt
-        - Defense
-            - Heal
-            - Barrier
-    - Party
+	- Stats
+	- Inventory
+		- Weapons
+		- Armour
+	- Spells
+		- Offense
+			- Fireball
+			- Thunderbolt
+		- Defense
+			- Heal
+			- Barrier
+	- Party
 - Market
-    - Buy / Sell Items
+	- Buy / Sell Items
 - Character Customization
-    - Species (eg: Elf)
-        - Race (eg: Wood Elf)
-    - Class
+	- Species (eg: Elf)
+		- Race (eg: Wood Elf)
+	- Class
 - Data Templates
 	- Abilities
-		```json
-		{
-			"name": "String",
-			"type": "String: Offense / Defense",
-			"element": "String: Earth / Fire / Water / Air / Lightning / Light / Dark",
-			"power": "Int",
-			"cost": "Float",
-			"scalesWith": "String: Stat"
-		}
-		```
+		- Name
+			- `String`
+		- Type
+			- `String`
+				- Offense
+				- Defense
+		- Element
+			- `String`
+				- Earth
+				- Fire
+				- Water
+				- Air
+				- Lightning
+				- Light
+				- Dark
+		- Power
+			- `Integer`
+		- Cost
+			- `Float`
+		- Scale
+			- `String`
+				- Stat
 	- Entities
-		```json
-		{
-			"name": "String",
-			"nature": {
-				"species": "String",
-				"race": "String"
-			},
-			"class": "String",
-			"stats": {
-				"strength": "Int",
-				"agility": "Int",
-				"speed": "Int",
-				"health": "Int",
-				"intelligence": "Int",
-				"arcane": "Int"
-			},
-			"inventory": [
-				"String"
-			],
-			"equipped": {
-				"weapon": "String",
-				"armour": "String"
-			},
-			"level": {
-				"num": "Int",
-				"progress": "Float"
-			},
-			"abilities": [
-				"String"
-			]
-		}
-		```
+		- Name
+			- `String`
+		- Nature
+			- Species
+				- `String`
+			- Race
+				- `String`
+		- Class
+			- `String`
+		- Stats
+			- Strength
+				- `Integer`
+			- Agility
+				- `Integer`
+			- Speed
+				- `Integer`
+			- Health
+				- `Integer`
+			- Intelligence
+				- `Integer`
+			- Arcane
+				- `Integer`
+		- Inventory
+			- `Array`
+				- `String`
+		- Equipped
+			- Weapon
+				- `String`
+			- Armour
+				- `String`
+		- Level
+			- Number
+				- `Integer`
+			- Progress
+				- `Float`
+		- Abilities
+			- `Array`
+				- `String`
 	- Quests
-		```json
-		{
-			"name": "String",
-			"description": "String",
-			"type": "String: Kill / Collect",
-			"id": "String: Enemy / Item",
-			"count": "Int",
-			"reward": {
-				"amount":"Int",
-				"type":"String: xp / gold / item"
-			},
-			"from": "String",
-			"requirements": {
-				"quest": "String: Previous Quest",
-				"level": "Int"
-			}
-		}
-		```
+		- Name
+			- `String`
+		- Description
+			- `String`
+		- Type
+			- `String`
+				- Kill
+				- Collect
+		- ID
+			- `String`
+				- Enemy
+				- Item
+		- Count
+			- `Integer`
+		- Reward
+			- Amount
+				- `Integer`
+			- Type
+				- `String`
+					- XP
+					- $
+					- Item
+		- From
+			`String`
+		- Requirements
+			- Quest
+				- `String`
+					- Previous Quest
+			- Level
+				- `Integer`
