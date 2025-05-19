@@ -1,6 +1,6 @@
 - Quests
-	- Collect {item}
-	- Kill {enemy}
+	- Collect Item
+	- Kill Enemy
 - Combat
 	- Stats
 	- Inventory
