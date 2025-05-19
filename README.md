@@ -20,6 +20,7 @@
 	- Species (eg: Elf)
 		- Race (eg: Wood Elf)
 	- Class
+***
 - Data Templates
 	- Abilities
 		- Name
