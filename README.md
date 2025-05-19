@@ -34,7 +34,7 @@
 				- Fire
 				- Water
 				- Air
-				- Lightning
+				- Energy
 				- Light
 				- Dark
 		- Power
